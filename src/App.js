@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import AsyncDemo from './AsyncDemo';
 import ErrorDemo from './ErrorDemo';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <ErrorDemo />
+        <AsyncDemo />
       </div>
     );
   }
